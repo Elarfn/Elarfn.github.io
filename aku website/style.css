@@ -1,0 +1,454 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-top: 25px; */
+    padding-left: 8%;
+    padding-right: 8%;
+    top: 0;
+    position: sticky;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, .7);
+
+}
+.logo{
+    color: white;
+    /* font-size: 35px; */
+    /* initial-letter: 1px; */
+    cursor: pointer;
+}
+
+span{
+    color: green;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: green;
+    transition: .4s;
+}
+.btn{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top:50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: darkkhaki;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+display: inline-block;
+width: 100%;
+padding: 14px 130px 14px 15px;
+border: 2px solid green;
+outline: none;
+border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline:none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #585858;
+    top: 6px;
+    right: 6px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 400px;
+    border-radius: 5%;
+    filter: drop-shadow(3px 3px 5px rgba(0,0,0,.8));
+    padding: top;
+}
+.about-text{
+    height: 550px;
+
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color:white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+color: #fcfcfc;
+letter-spacing: 1px;
+line-height: 28px;
+font-size: 18px;
+margin-bottom: 45px;
+}
+button {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: 3px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+.Activities{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.Card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.Card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: green ;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+
+}
+.Card .button{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.Card .button:hover{
+    background-color: transparent;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+/* gallery */
+.container{
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    background-color: #101010;
+    text-align: center;
+    justify-content: center;
+    }
+    
+    .GALERI{
+        text-align: center;
+    }
+
+    .container h1{
+        color: white;
+    }
+    .GALERI li{
+        width: 120px;
+        height: 120px;
+        overflow: hidden;
+        border: 5px solid #666;
+        margin-right: 10px;
+        position: relative;
+        display: inline-block;
+    }
+.GALERI li,
+.GALERI li img,
+.GALERI li span{
+    border-radius: 50%;
+
+}
+    
+    .GALERI li span{
+        display: block;
+        width: 120px;
+        height: 120px;
+        background-color: rgba(200,200,200,.5);
+        position: absolute;
+        top: 0;
+        text-align: center;
+        line-height: 120px;
+        color: #333;
+        text-shadow: 1px 1px 1px blueviolet;
+        opacity: 0;
+        transform: scale(0) rotate(0);
+        transition: .3s;
+    }
+    .GALERI li a:hover span{
+        opacity: 1;
+        transform: scale(1) rotate(360deg);
+
+    }
+    .clear{
+        clear: both;
+    }
+    .overlay{
+        width: 0;
+        height: 0;
+        overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0);
+    z-index: 9999;
+    transition: .7s;
+    text-align: center;
+    padding: 100px 0px;
+    }
+
+    .overlay:target{
+        width: auto;
+        height: auto;
+        bottom: 0;
+        right: 0;
+        background: rgba(0,0,0,.7);
+    }
+
+    .overlay img{
+        max-height: 100% ;
+        box-shadow: 2px 2px 7px rgba(0,0,0,.5);
+    }
+
+    .overlay:target img{
+        animation: fade 1s;
+        border-radius: 0%;
+    }
+
+    .overlay .close {
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        margin-left: -20px;
+        color: aliceblue;
+        text-decoration: none;
+        background-color: black;
+        border: 1px solid white;
+        line-height: 14px;
+        padding: 5px;
+        opacity: 0;
+    }
+
+    .overlay:target .close{
+        animation: SDF .5s .5s forwards;
+    }
+
+    .overlay:target .next,
+    .overlay:target .prev{
+        animation: fade .5s .5s forwards;
+    }
+
+     /*nvigasi */
+     .next, .prev {
+        width: 49px;
+        height: 93px;
+        background-image: url(img/next.png);
+        position: absolute;
+        text-indent: -999999px;
+        top:40%;
+        margin-left:  50px;
+        opacity: 0;
+     }
+
+
+     .prev {
+        background-image: url(img/prev.png);
+        margin-left: -100px;
+     }
+    /* animasi*/
+
+    @keyframes fade {
+        0%{
+            opacity: 0;
+
+        }
+        100%{
+            opacity: 1;
+        }
+        
+    }
+    @keyframes zoomDanFade {
+        0% {
+        transform: scale(0);
+        opacity: 0;
+        }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+@keyframes SDF{
+    0%{
+        opacity: 0;
+        margin-top: -20px;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+.contac-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+color: white;
+font-size: 17px;
+width: 500px;
+text-align: center;
+line-height: 26px;
+}
+
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height:45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: green;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.end{
+    position: absolute;
+    color: green;
+    bottom: 35px;
+    font-size: 14px;
+}
