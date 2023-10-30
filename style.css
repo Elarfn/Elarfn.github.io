@@ -444,6 +444,7 @@ line-height: 26px;
     margin: 22px 10px;
     color: white;
     text-decoration: none;
+    border-radius: 30%;
 }
 
 .social a:hover{
