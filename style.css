@@ -157,7 +157,7 @@ line-height: 28px;
 font-size: 18px;
 margin-bottom: 45px;
 }
-button {
+/* button {
     background-color: green;
     color: white;
     text-decoration: none;
@@ -175,7 +175,7 @@ button:hover{
     background-color: transparent;
     border: 2px solid green;
     cursor: pointer;
-}
+} */
 
 .Activities{
     background: #101010;
